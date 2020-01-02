@@ -57,7 +57,7 @@ public class UserController extends BaseController{
         //若获取的对应用户信息不存在
         if(userModel == null){
             throw new BusinessException(EmBusinessError.USER_NOT_EXIST);
-//            userModel.setEncrptPassword("123"); //测试其他异常
+            //userModel.setEncrptPassword("123"); //测试其他异常
         }
 
         //将核心领域模型用户对象转化为可供UI使用的viewobject

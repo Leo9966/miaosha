@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8de028d-fd19-4503-ab3d-43b5414685d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/BaseController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/UserController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +158,9 @@
       <workItem from="1577708570369" duration="2260000" />
       <workItem from="1577711045384" duration="906000" />
       <workItem from="1577712466975" duration="1631000" />
-      <workItem from="1577753774973" duration="25656000" />
+      <workItem from="1577753774973" duration="26036000" />
+      <workItem from="1577954821915" duration="1328000" />
+      <workItem from="1577960396540" duration="1727000" />
     </task>
     <servers />
   </component>
@@ -179,38 +180,38 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1059" y="327" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1577705820774" />
-    <state width="1657" height="235" key="GridCell.Tab.0.bottom" timestamp="1577952527652">
+    <state width="1657" height="235" key="GridCell.Tab.0.bottom" timestamp="1577956162715">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="235" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577952527652" />
-    <state width="1657" height="235" key="GridCell.Tab.0.center" timestamp="1577952527652">
+    <state width="1657" height="235" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577956162715" />
+    <state width="1657" height="235" key="GridCell.Tab.0.center" timestamp="1577956162715">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="235" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577952527652" />
-    <state width="1657" height="235" key="GridCell.Tab.0.left" timestamp="1577952527652">
+    <state width="1657" height="235" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577956162715" />
+    <state width="1657" height="235" key="GridCell.Tab.0.left" timestamp="1577956162715">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="235" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577952527652" />
-    <state width="1657" height="235" key="GridCell.Tab.0.right" timestamp="1577952527652">
+    <state width="1657" height="235" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577956162715" />
+    <state width="1657" height="235" key="GridCell.Tab.0.right" timestamp="1577956162715">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="235" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577952527652" />
-    <state width="1657" height="200" key="GridCell.Tab.1.bottom" timestamp="1577937156756">
+    <state width="1657" height="235" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577956162715" />
+    <state width="1657" height="200" key="GridCell.Tab.1.bottom" timestamp="1577953475343">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="200" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577937156756" />
-    <state width="1657" height="200" key="GridCell.Tab.1.center" timestamp="1577937156755">
+    <state width="1657" height="200" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1577953475343" />
+    <state width="1657" height="200" key="GridCell.Tab.1.center" timestamp="1577953475342">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="200" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577937156755" />
-    <state width="1657" height="200" key="GridCell.Tab.1.left" timestamp="1577937156754">
+    <state width="1657" height="200" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1577953475342" />
+    <state width="1657" height="200" key="GridCell.Tab.1.left" timestamp="1577953475342">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="200" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577937156754" />
-    <state width="1657" height="200" key="GridCell.Tab.1.right" timestamp="1577937156756">
+    <state width="1657" height="200" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1577953475342" />
+    <state width="1657" height="200" key="GridCell.Tab.1.right" timestamp="1577953475343">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="200" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577937156756" />
+    <state width="1657" height="200" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1577953475343" />
     <state x="477" y="120" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1577707495919">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
