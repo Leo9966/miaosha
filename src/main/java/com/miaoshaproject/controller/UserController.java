@@ -20,6 +20,8 @@ import java.util.Random;
 
 @Controller("user")
 @RequestMapping("/user")
+@CrossOrigin
+//@CrossOrigin(origins = {"*"}, allowCredentials = "true")   //如果html页面加入了xhrFields:{withCredentials:true}
 public class UserController extends BaseController{
 
     @Autowired
@@ -28,7 +30,7 @@ public class UserController extends BaseController{
     @Autowired
     private HttpServletRequest httpServletRequest;
 
-    @RequestMapping("/getotp")
+    @RequestMapping(value = "/getotp",method = {RequestMethod.POST},consumes = {CONTENT_TYPE_FORMED})
     @ResponseBody
     public CommonReturnType getOtp(@RequestParam(name="telphone")String telphone){
         //需要按照一定的规则生成OTP验证码
@@ -41,7 +43,7 @@ public class UserController extends BaseController{
         httpServletRequest.getSession().setAttribute(telphone,otpCode);
 
         //将OTP验证码通过短信通道发送给用户，省略
-        System.out.println("telphone = " + telphone + "& optCode = " + otpCode);
+        System.out.println("telphone = " + telphone + " & optCode = " + otpCode);
 
         return CommonReturnType.create(null);
     }
