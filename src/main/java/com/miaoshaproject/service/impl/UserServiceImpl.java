@@ -3,7 +3,9 @@ package com.miaoshaproject.service.impl;
 import com.miaoshaproject.dao.UserDOMapper;
 import com.miaoshaproject.dao.UserPasswordDOMapper;
 import com.miaoshaproject.dataobject.UserDO;
+import com.miaoshaproject.dataobject.UserDOExample;
 import com.miaoshaproject.dataobject.UserPasswordDO;
+import com.miaoshaproject.dataobject.UserPasswordDOExample;
 import com.miaoshaproject.error.BusinessException;
 import com.miaoshaproject.error.EmBusinessError;
 import com.miaoshaproject.service.UserService;
@@ -14,6 +16,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
 
 @Service
 public class UserServiceImpl implements UserService {
@@ -36,6 +40,33 @@ public class UserServiceImpl implements UserService {
         UserPasswordDO userpasswordDo = userPasswordDOMapper.selectByUserId(userDO.getId());
 
         return convertFromDataObject(userDO,userpasswordDo);
+    }
+
+    @Override
+    public UserModel validateLogin(String telphone, String encrptPassword) throws BusinessException {
+        //通过用户手机获取用户信息
+        UserDO userDO = userDOMapper.selectByTelphone(telphone);
+
+//          用Example
+//        UserDOExample userDOExample = new UserDOExample();
+//        userDOExample.createCriteria().andTelphoneEqualTo(telphone);
+//        List<UserDO> userDOList = userDOMapper.selectByExample(userDOExample);
+//        UserDO userDO = userDOList.get(0);
+
+
+        if(userDO == null){
+            throw new BusinessException(EmBusinessError.USER_LOGIN_FAIL);
+        }
+
+        UserPasswordDO userPasswordDO = userPasswordDOMapper.selectByUserId(userDO.getId());
+
+        UserModel userModel = convertFromDataObject(userDO,userPasswordDO);
+
+        //比对用户信息内加密的密码是否和传输进来的密码相匹配
+        if(!StringUtils.equals(encrptPassword,userModel.getEncrptPassword())){
+            throw new BusinessException(EmBusinessError.USER_LOGIN_FAIL);
+        }
+        return userModel;
     }
 
     @Override

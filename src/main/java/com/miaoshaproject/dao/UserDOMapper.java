@@ -93,4 +93,7 @@ public interface UserDOMapper {
      * @mbg.generated Mon Dec 30 20:34:48 CST 2019
      */
     int updateByPrimaryKey(UserDO record);
+
+    //根据手机号获取用户信息
+    UserDO selectByTelphone(String telphone);
 }
