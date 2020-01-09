@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8de028d-fd19-4503-ab3d-43b5414685d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/validator/ValidationResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/validator/ValidatorImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/model/UserModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/BaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/BaseController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/viewobject/UserVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/controller/viewobject/UserVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dao/UserDOMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dao/UserDOMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dao/UserPasswordDOMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dao/UserPasswordDOMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserDOExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserDOExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserDOExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserDOExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserDOExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserDOExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserDOExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserDOExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserPasswordDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserPasswordDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserPasswordDOExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserPasswordDOExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserPasswordDOExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserPasswordDOExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserPasswordDOExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserPasswordDOExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserPasswordDOExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/dataobject/UserPasswordDOExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/error/BusinessException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/error/BusinessException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/error/CommonError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/error/CommonError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/error/EmBusinessError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/error/EmBusinessError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/response/CommonReturnType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/response/CommonReturnType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/model/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/miaoshaproject/service/model/UserModel.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +56,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41318864" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -190,7 +162,14 @@
       <workItem from="1577954821915" duration="1328000" />
       <workItem from="1577960396540" duration="1727000" />
       <workItem from="1577963233014" duration="117000" />
-      <workItem from="1578013811566" duration="17839000" />
+      <workItem from="1578013811566" duration="18305000" />
+      <workItem from="1578041903441" duration="18000" />
+      <workItem from="1578048978874" duration="17000" />
+      <workItem from="1578049031563" duration="289000" />
+      <workItem from="1578049619812" duration="211000" />
+      <workItem from="1578051098735" duration="1106000" />
+      <workItem from="1578474427100" duration="1712000" />
+      <workItem from="1578476837417" duration="29000" />
     </task>
     <servers />
   </component>
@@ -198,10 +177,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="544" y="176" width="800" height="677" key="#Project_Structure" timestamp="1578039209845">
+    <state x="544" y="176" width="800" height="677" key="#Project_Structure" timestamp="1578049642430">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="544" y="176" width="800" height="677" key="#Project_Structure/67.27.1853.1053@67.27.1853.1053" timestamp="1578039209845" />
+    <state x="544" y="176" width="800" height="677" key="#Project_Structure/67.27.1853.1053@67.27.1853.1053" timestamp="1578049642430" />
     <state x="740" y="119" width="1084" height="863" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577705995131">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -214,57 +193,61 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1059" y="327" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1577705820774" />
-    <state width="1657" height="199" key="GridCell.Tab.0.bottom" timestamp="1578040489018">
+    <state width="1657" height="235" key="GridCell.Tab.0.bottom" timestamp="1578049319252">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="199" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578040489018" />
-    <state width="1657" height="199" key="GridCell.Tab.0.center" timestamp="1578040489017">
+    <state width="1657" height="235" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578049319252" />
+    <state width="1657" height="235" key="GridCell.Tab.0.center" timestamp="1578049319252">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="199" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578040489017" />
-    <state width="1657" height="199" key="GridCell.Tab.0.left" timestamp="1578040489017">
+    <state width="1657" height="235" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578049319252" />
+    <state width="1657" height="235" key="GridCell.Tab.0.left" timestamp="1578049319251">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="199" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578040489017" />
-    <state width="1657" height="199" key="GridCell.Tab.0.right" timestamp="1578040489018">
+    <state width="1657" height="235" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578049319251" />
+    <state width="1657" height="235" key="GridCell.Tab.0.right" timestamp="1578049319252">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="199" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578040489018" />
-    <state width="1657" height="199" key="GridCell.Tab.1.bottom" timestamp="1578040488872">
+    <state width="1657" height="235" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578049319252" />
+    <state width="1657" height="199" key="GridCell.Tab.1.bottom" timestamp="1578040950272">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="199" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578040488872" />
-    <state width="1657" height="199" key="GridCell.Tab.1.center" timestamp="1578040488871">
+    <state width="1657" height="199" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578040950272" />
+    <state width="1657" height="199" key="GridCell.Tab.1.center" timestamp="1578040950272">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="199" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578040488871" />
-    <state width="1657" height="199" key="GridCell.Tab.1.left" timestamp="1578040488871">
+    <state width="1657" height="199" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578040950272" />
+    <state width="1657" height="199" key="GridCell.Tab.1.left" timestamp="1578040950271">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="199" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578040488871" />
-    <state width="1657" height="199" key="GridCell.Tab.1.right" timestamp="1578040488872">
+    <state width="1657" height="199" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578040950271" />
+    <state width="1657" height="199" key="GridCell.Tab.1.right" timestamp="1578040950272">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="199" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578040488872" />
+    <state width="1657" height="199" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578040950272" />
     <state x="477" y="120" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1577707495919">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="477" y="120" width="924" height="684" key="Maven.ArtifactSearchDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577707495919" />
-    <state x="145" y="80" width="1410" height="845" key="SettingsEditor" timestamp="1578040130334">
+    <state x="145" y="80" width="1410" height="845" key="SettingsEditor" timestamp="1578476045934">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="145" y="80" width="1410" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1578040130334" />
+    <state x="145" y="80" width="1410" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1578476045934" />
     <state x="562" y="430" width="678" height="224" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1577694766562">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="562" y="430" width="678" height="224" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/67.27.1853.1053@67.27.1853.1053" timestamp="1577694766562" />
+    <state x="586" y="27" width="862" height="1053" key="find.popup" timestamp="1578476080614">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="586" y="27" width="862" height="1053" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1578476080614" />
     <state x="259" y="286" width="1436" height="611" key="new project wizard" timestamp="1577963339645">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="259" y="286" width="1436" height="611" key="new project wizard/67.27.1853.1053@67.27.1853.1053" timestamp="1577963339645" />
-    <state x="645" y="343" width="672" height="678" key="search.everywhere.popup" timestamp="1578016234956">
+    <state x="645" y="343" width="672" height="678" key="search.everywhere.popup" timestamp="1578476041372">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="645" y="343" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1578016234956" />
+    <state x="645" y="343" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1578476041372" />
   </component>
 </project>
