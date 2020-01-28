@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8de028d-fd19-4503-ab3d-43b5414685d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/miaoshaproject/service/model/ItemModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/UserDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/UserDOMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/UserPasswordDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/UserPasswordDOMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-generator.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +44,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -58,7 +64,7 @@
     <property name="project.structure.side.proportion" value="0.41318864" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Maven.mybatis-generator">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.miaoshaproject.App" />
       <module name="miaosha" />
@@ -170,6 +176,11 @@
       <workItem from="1578051098735" duration="1106000" />
       <workItem from="1578474427100" duration="1712000" />
       <workItem from="1578476837417" duration="29000" />
+      <workItem from="1579484776717" duration="1209000" />
+      <workItem from="1579692179644" duration="1213000" />
+      <workItem from="1579694253477" duration="1082000" />
+      <workItem from="1579701953410" duration="5524000" />
+      <workItem from="1580115135222" duration="3540000" />
     </task>
     <servers />
   </component>
@@ -185,30 +196,38 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="740" y="119" width="1084" height="863" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577705995131" />
-    <state x="1091" y="247" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1578038013067">
+    <state x="1091" y="247" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1579746081012">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1091" y="247" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1578038013067" />
+    <state x="1091" y="247" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1579746081012" />
+    <state x="1165" y="373" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580180973326">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1165" y="373" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1580180973326" />
+    <state x="554" y="137" width="867" height="835" key="CommitChangelistDialog2" timestamp="1580181302165">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="554" y="137" width="867" height="835" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1580181302165" />
     <state x="1059" y="327" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577705820774">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1059" y="327" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1577705820774" />
-    <state width="1657" height="235" key="GridCell.Tab.0.bottom" timestamp="1578049319252">
+    <state width="1657" height="235" key="GridCell.Tab.0.bottom" timestamp="1580181008974">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="235" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578049319252" />
-    <state width="1657" height="235" key="GridCell.Tab.0.center" timestamp="1578049319252">
+    <state width="1657" height="235" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1580181008974" />
+    <state width="1657" height="235" key="GridCell.Tab.0.center" timestamp="1580181008974">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="235" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578049319252" />
-    <state width="1657" height="235" key="GridCell.Tab.0.left" timestamp="1578049319251">
+    <state width="1657" height="235" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1580181008974" />
+    <state width="1657" height="235" key="GridCell.Tab.0.left" timestamp="1580181008973">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="235" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578049319251" />
-    <state width="1657" height="235" key="GridCell.Tab.0.right" timestamp="1578049319252">
+    <state width="1657" height="235" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1580181008973" />
+    <state width="1657" height="235" key="GridCell.Tab.0.right" timestamp="1580181008974">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1657" height="235" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578049319252" />
+    <state width="1657" height="235" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1580181008974" />
     <state width="1657" height="199" key="GridCell.Tab.1.bottom" timestamp="1578040950272">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
